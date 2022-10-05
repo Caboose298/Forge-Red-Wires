@@ -1,0 +1,38 @@
+
+modLoader="javafml"
+
+loaderVersion="[40,)"
+
+license="All rights reserved"
+
+[[mods]]
+
+modId="forgeredwires"
+
+version="${file.jarVersion}"
+
+displayName="Forge Red Wires"
+
+logoFile="examplemod.png"
+
+credits="Kneelawk who made the original mod Wired Redstone https://www.curseforge.com/members/kneelawk/followers"
+
+authors="caboose1589"
+
+description='''
+
+'''
+
+[[dependencies.forgeredwires]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forgeredwires]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "aca",
+    " b "
+  ],
+  "key": {
+    "a": {"item": "minecraft:copper_ingot"},
+    "b": {"item": "minecraft:iron_ingot"},
+    "c": {"item": "minecraft:redstone"}
+  },
+  "result": {
+    "item": "forgeredwires:red_alloy_ingot",
+    "count": 2
+  }
+}
